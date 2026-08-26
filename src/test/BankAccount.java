@@ -11,7 +11,7 @@ public class BankAccount {
             } else {
                 System.out.println("invalid deposit amount");
             }
-        }
+    }
 
         public void withdraw ( double amount){
             if (amount >= 0 && amount <= balance) {
